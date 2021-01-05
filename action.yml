@@ -1,0 +1,19 @@
+name: Read LaTeX Version
+description: Reads Version information from .tex files
+inputs:
+  latex_file:
+    description: The LaTeX file where contains the command definition.
+    required: true
+    default: main.tex
+    
+  command_name:
+    description: The commandname to extract value
+    required: true
+    
+outputs:
+  command_value:
+    description: The command value
+        
+runs:
+  using: node12
+  main: dist/index.js

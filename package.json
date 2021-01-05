@@ -1,0 +1,22 @@
+{
+  "name": "LaTeXExtractor",
+  "version": "1.0.0",
+  "description": "Latex command Exctractor action",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc && ncc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OST-HS20/latex-version-action.git"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.26.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  }
+}
