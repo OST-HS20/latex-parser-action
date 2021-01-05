@@ -1,5 +1,5 @@
-name: Read LaTeX Version
-description: Reads Version information from .tex files
+name: Parse LaTeX file for given command name
+description: Reads a command value from a LaTeX *.tex file
 inputs:
   latex_file:
     description: The LaTeX file where contains the command definition.
@@ -7,7 +7,7 @@ inputs:
     default: main.tex
     
   command_name:
-    description: The commandname to extract value
+    description: The command name to extract value
     required: true
     
 outputs:
